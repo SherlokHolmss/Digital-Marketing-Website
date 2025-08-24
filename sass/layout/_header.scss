@@ -1,0 +1,25 @@
+.header {
+    padding: 26px 0;
+    border: 1px solid black;
+    &-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+    }
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-nav-wrap{
+        display: flex;
+        justify-content: space-between;
+        gap: 68px;
+    }
+    &-nav-list{
+        display: flex;
+        gap: 32px;
+
+    }
+}
