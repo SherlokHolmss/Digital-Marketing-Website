@@ -1,0 +1,29 @@
+.hero {
+    padding: 87px 0 135px 0;
+    border: 1px solid black;
+    &-title {
+        font-family: Inter;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 80px;
+        line-height: 120%;
+        letter-spacing: -3px;
+        vertical-align: middle;
+    }
+
+    &-description {
+        font-family: Inter;
+        font-weight: 600;
+        font-style: Semi Bold;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: -1px;
+        vertical-align: middle;
+
+    }
+
+    &-wrap {
+        max-width: 617px;
+        max-height: 126px;
+    }
+}
