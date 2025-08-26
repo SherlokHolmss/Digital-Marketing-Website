@@ -175,4 +175,77 @@ body {
 
 .service {
   padding: 100px 0;
+  background-color: #1D1E25;
+}
+.service-wrap {
+  max-width: 816px;
+  max-height: 306px;
+  margin-bottom: 80px;
+}
+.service-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: -2px;
+  vertical-align: middle;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.service-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: rgb(126, 132, 146);
+}
+.service-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 56px;
+}
+.service-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 481px;
+  max-height: 250px;
+  gap: 24px;
+}
+.service-item-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: -1px;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+.service-item-description {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #7E8492;
 }/*# sourceMappingURL=main.css.map */
