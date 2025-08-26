@@ -103,7 +103,8 @@ body {
 }
 
 .hero {
-  padding: 87px 0 135px 0;
+  padding-top: 87px;
+  padding-bottom: 135px;
   border: 1px solid black;
 }
 .hero-title {
@@ -114,6 +115,7 @@ body {
   line-height: 120%;
   letter-spacing: -3px;
   vertical-align: middle;
+  margin-bottom: 114px;
 }
 .hero-description {
   font-family: Inter;
@@ -123,8 +125,54 @@ body {
   line-height: 42px;
   letter-spacing: -1px;
   vertical-align: middle;
+  margin-bottom: 69px;
 }
 .hero-wrap {
-  max-width: 617px;
-  max-height: 126px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 740px;
+}
+.hero-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+}
+.hero-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 175px;
+  height: 56px;
+  border-radius: 100px;
+  background-color: #1D1E25;
+  color: #FFFFFF;
+}
+.hero-input {
+  border: none;
+  border-bottom: 1px solid #CED1D8;
+}
+
+.service {
+  padding: 100px 0;
 }/*# sourceMappingURL=main.css.map */

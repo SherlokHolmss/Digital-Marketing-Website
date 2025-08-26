@@ -1,6 +1,8 @@
 .hero {
-    padding: 87px 0 135px 0;
+    padding-top: 87px;
+    padding-bottom: 135px;
     border: 1px solid black;
+
     &-title {
         font-family: Inter;
         font-weight: 700;
@@ -9,6 +11,7 @@
         line-height: 120%;
         letter-spacing: -3px;
         vertical-align: middle;
+        margin-bottom: 114px;
     }
 
     &-description {
@@ -16,16 +19,40 @@
         font-weight: 600;
         font-style: Semi Bold;
         font-size: 32px;
-        
         line-height: 42px;
         letter-spacing: -1px;
         vertical-align: middle;
+        margin-bottom: 69px;
+    }
+
+
+    &-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 740px;
 
     }
 
-    
-    &-wrap {
-        max-width: 617px;
-        max-height: 126px;
+    &-form {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    &-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 175px;
+        height: 56px;
+        border-radius: 100px;
+        background-color: #1D1E25;
+        color: #FFFFFF;
+    }
+    &-input{
+        border: none;
+        border-bottom: 1px solid #CED1D8;
     }
 }
