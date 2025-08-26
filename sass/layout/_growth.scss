@@ -1,0 +1,25 @@
+.growth{
+    padding: 160px 0 94px 0 ;
+    &-flex-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 58px;
+    }
+    &-description-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    &-list{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    &-item{
+        max-width: 383px;
+        max-height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+}
