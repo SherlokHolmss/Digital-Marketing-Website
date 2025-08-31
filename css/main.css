@@ -377,9 +377,10 @@ body {
           align-items: center;
   margin-bottom: 80px;
 }
-.about .wrap {
+.about-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 24px;
+  margin-top: 80px;
 }/*# sourceMappingURL=main.css.map */
